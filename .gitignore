@@ -1,0 +1,12 @@
+build
+build*
+.cache
+.vscode
+.clangd
+compile_commands.json
+cmake-build-*
+.idea
+script
+toolchains
+mt
+.clang-format

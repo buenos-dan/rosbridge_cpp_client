@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+
+message RosPacket {
+  required string topic = 1;
+  optional string frame = 2;
+  required string msg_type = 3;
+  required string msg = 4;
+};
+
+// std_msgs/String
+message String {
+  required string data = 1;
+}
+
